@@ -1,0 +1,16 @@
+.button{
+  
+    width: 70%;
+    border:1px solid #17bf9d44;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 6%;
+    border-radius: 50px;
+    margin-left: 60px;
+    padding-left: 50% ;
+ 
+}
+.avatar{
+    color:#17bf9e; ;
+}

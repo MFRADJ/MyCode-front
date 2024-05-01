@@ -1,0 +1,26 @@
+/* Styles pour les images */
+.img-course {
+    width: 100%; /* Définissez la largeur souhaitée pour les images */
+    height: 100%; /* Maintient le ratio d'aspect */
+  }
+  
+  /* Styles pour les liens "Allez dans les cours" */
+  .enroll {
+    font-size: 14px; /* Taille de police */
+    color: #007bff; /* Couleur du lien */
+  }
+  
+  /* Styles pour l'icône "lesson" */
+  .lesson {
+    font-size: 16px; /* Taille de police */
+    color: #28a745; /* Couleur de l'icône */
+    margin-top: 5px; /* Espace entre le lien "Allez dans les cours" et l'icône "lesson" */
+  }
+  
+  /* Style pour les colonnes */
+  .col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
