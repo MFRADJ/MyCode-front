@@ -2,7 +2,7 @@ import React, { Fragment }  from 'react';
 import './App.css';
 import Conx from './Componets/Authentification/Conx';
 import Inscription from './Componets/Authentification/Inscription';
-import { Routes, Route, BrowserRouter} from 'react-router-dom';
+import {Routes, Route, BrowserRouter, Router} from 'react-router-dom';
 import "remixicon/fonts/remixicon.css";
 import HeroSection from './Componets/Hero_Section/HeroSection';
 import CompanySection from './Componets/Company-section/Company'; 
@@ -27,6 +27,7 @@ import HomeProf from './Componets/HomeProf';
 import ProfilProf from './Componets/HomeProf'
 import Admin from './Componets/Home/Admin';
 import Connexion from './Componets/Authentification/Connexion';
+import {Dashboard} from "@mui/icons-material";
 function  App () {
 
 
@@ -51,6 +52,7 @@ function  App () {
   <Route path='/HomeProf' element={<HomeProf/>}/>
   <Route path='/ProfilProf' element={<ProfilProf/>}/>
   <Route path='/Connexion' element={<Connexion/>}/>
+  <Route path = '/DhasboardStudent' element = {<Dashboard/>}/>
 
 </Routes>
 </ BrowserRouter>
